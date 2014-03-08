@@ -1,4 +1,4 @@
-thechangeling
+The Changeling
 =============
 
-GGJ 2014 videogame
+GGJ 2014 exploration horror videogame.
