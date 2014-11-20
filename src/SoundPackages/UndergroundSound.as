@@ -74,14 +74,14 @@ package SoundPackages
 		
 		private function loadSounds():void
 		{
-			SoundAS.loadSound("sound/underground/underground_bg.mp3","undergroundBg");
+			SoundAS.loadSound("../assets/sound/underground/underground_bg.mp3","undergroundBg");
 					
-			SoundAS.loadSound("sound/underground/evil_laugh.mp3", "evil_laugh" );
-			SoundAS.loadSound("sound/underground/batcave.mp3", "batcave");
-			SoundAS.loadSound("sound/underground/waterdrops.mp3", "waterdrops");
+			SoundAS.loadSound("../assets/sound/underground/evil_laugh.mp3", "evil_laugh" );
+			SoundAS.loadSound("../assets/sound/underground/batcave.mp3", "batcave");
+			SoundAS.loadSound("../assets/sound/underground/waterdrops.mp3", "waterdrops");
 			
-			SoundAS.loadSound("sound/underground/portal.mp3", "portal");
-			SoundAS.loadSound("sound/underground/finallaugh.mp3", "final_laugh");
+			SoundAS.loadSound("../assets/sound/underground/portal.mp3", "portal");
+			SoundAS.loadSound("../assets/sound/underground/finallaugh.mp3", "final_laugh");
 			
 		}
 		

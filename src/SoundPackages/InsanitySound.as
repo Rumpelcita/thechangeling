@@ -11,9 +11,9 @@ package SoundPackages
 		
 		private function loadSounds():void
 		{
-			SoundAS.loadSound("sound/insanity/fastbreath.mp3","breath");
-			SoundAS.loadSound("sound/insanity/heartbeat.mp3","heart");
-			SoundAS.loadSound("sound/insanity/cultistchant.mp3","cultist");
+			SoundAS.loadSound("../assets/sound/insanity/fastbreath.mp3","breath");
+			SoundAS.loadSound("../assets/sound/insanity/heartbeat.mp3","heart");
+			SoundAS.loadSound("../assets/sound/insanity/cultistchant.mp3","cultist");
 		}
 		
 		public function playInsanitySounds(insanityLevel:int):void

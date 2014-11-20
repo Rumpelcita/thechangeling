@@ -61,9 +61,9 @@ package SoundPackages
 		
 		private function loadSounds():void
 		{
-			SoundAS.loadSound("sound/town/townbg.mp3","townBg");
+			SoundAS.loadSound("../assets/sound/town/townbg.mp3","townBg");
 						
-			SoundAS.loadSound("sound/town/rathouse.mp3", "rat" );			
+			SoundAS.loadSound("../assets/sound/town/rathouse.mp3", "rat" );			
 		}
 		
 		private function playRandomSound():void

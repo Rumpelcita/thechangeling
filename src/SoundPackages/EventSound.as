@@ -11,9 +11,9 @@ package SoundPackages
 		
 		private function loadSounds():void
 		{
-			SoundAS.loadSound("sound/event/trunk.mp3","trunk");
-			SoundAS.loadSound("sound/event/book.mp3","book");
-			SoundAS.loadSound("sound/event/knife.mp3","knife");
+			SoundAS.loadSound("../assets/sound/event/trunk.mp3","trunk");
+			SoundAS.loadSound("../assets/sound/event/book.mp3","book");
+			SoundAS.loadSound("../assets/sound/event/knife.mp3","knife");
 		}
 		
 		public function playEventSounds(event:int):void

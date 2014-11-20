@@ -20,7 +20,7 @@ package WoodObjects
 			super();
 			
 			var random:int = Random.get(1, 3);
-			var url:String = "sprites/tree" + random.toString() + ".png";
+			var url:String = "../assets/sprites/tree" + random.toString() + ".png";
 			
 			loader = new Loader();
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, loadComplete);

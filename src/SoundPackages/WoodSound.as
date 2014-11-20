@@ -56,12 +56,12 @@ package SoundPackages
 		
 		private function loadSounds():void
 		{
-			SoundAS.loadSound("sound/forest/forest.mp3","forestBg");
+			SoundAS.loadSound("../assets/sound/forest/forest.mp3","forestBg");
 						
-			SoundAS.loadSound("sound/forest/batsflap.mp3", "batsflap" );
-			SoundAS.loadSound("sound/forest/night_crickets.mp3", "crickets");
-			SoundAS.loadSound("sound/forest/owl.mp3", "owl");
-			SoundAS.loadSound("sound/forest/wolves_howl.mp3", "wolves");					
+			SoundAS.loadSound("../assets/sound/forest/batsflap.mp3", "batsflap" );
+			SoundAS.loadSound("../assets/sound/forest/night_crickets.mp3", "crickets");
+			SoundAS.loadSound("../assets/sound/forest/owl.mp3", "owl");
+			SoundAS.loadSound("../assets/sound/forest/wolves_howl.mp3", "wolves");					
 			
 		}
 		

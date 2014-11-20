@@ -13,7 +13,7 @@ package WoodObjects
 		{
 			super();
 			
-			var url:String = "sprites/tiles-forest.png";
+			var url:String = "../assets/sprites/tiles-forest.png";
 			
 			trace("loading floor tile", url);
 			

@@ -31,6 +31,7 @@ mxmlc "bin/TheChangeling-debug.swf" do |t|
   t.input = "src/TheChangeling.as"
   t.library_path << 'lib/kEngine.swc'
   t.library_path << 'lib/SoundAS.swc'
+  t.library_path << 'lib/assets.swc'
   t.static_link_runtime_shared_libraries = true
   t.debug = true
 end
@@ -48,6 +49,7 @@ mxmlc "bin/TheChangeling-test.swf" => :asunit4 do |t|
   t.input = "src/TheChangelingRunner.as"
   t.library_path << 'lib/kEngine.swc'
   t.library_path << 'lib/SoundAS.swc'
+  t.library_path << 'lib/assets.swc'
   t.static_link_runtime_shared_libraries = true
   t.source_path << 'test'
   t.debug = true
@@ -63,6 +65,7 @@ compc "bin/TheChangeling.swc" do |t|
   t.input_class = "TheChangeling"
   t.library_path << 'lib/kEngine.swc'
   t.library_path << 'lib/SoundAS.swc'
+  t.library_path << 'lib/assets.swc'
   t.static_link_runtime_shared_libraries = true
   t.source_path << 'src'
 end
