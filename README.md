@@ -10,6 +10,7 @@ This assumes you already cloned the repo.
 Install ruby 1.9.3 https://www.ruby-lang.org/en/
 
 ### Install project sprouts:
+gem install sprouts
 
 #### Install the ActionScript 3 / Flash Bundle:
 gem install flashsdk --pre
