@@ -28,4 +28,4 @@ rake
 
 From now on you just have to run rake whenever you wish to run the game. This way you don't have to set a dev enviroment whenever you need to test the game.
 
-There is an executable inside the bin folder, but it's not always up to date so the rake command is the recommended method.
+There is an executable inside the bin folder, but it's not always up to date so the rake command is the recommended method to test the game.
