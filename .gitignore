@@ -2,3 +2,4 @@
 .project
 bin-debug/
 .settings/
+config/generators
