@@ -11,8 +11,8 @@ package SoundPackages
 		
 		public function loadSounds():void
 		{
-			SoundAS.loadSound("../assets/sound/steps/forest_walk.mp3","forest_walk");
-			SoundAS.loadSound("../assets/sound/steps/house_walk.mp3", "town_walk");
+			SoundAS.loadSound("../assets/sound/steps/PasosPasto.mp3","forest_walk");
+			SoundAS.loadSound("../assets/sound/steps/PasosSuelo.mp3", "town_walk");
 			SoundAS.loadSound("../assets/sound/steps/underground_walk.mp3", "underground_walk");
 		}
 		

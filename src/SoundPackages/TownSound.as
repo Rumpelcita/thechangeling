@@ -61,7 +61,7 @@ package SoundPackages
 		
 		private function loadSounds():void
 		{
-			SoundAS.loadSound("../assets/sound/town/townbg.mp3","townBg");
+			SoundAS.loadSound("../assets/sound/town/melodia-pueblo.mp3","townBg");
 						
 			SoundAS.loadSound("../assets/sound/town/rathouse.mp3", "rat" );			
 		}
