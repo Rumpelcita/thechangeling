@@ -5,7 +5,7 @@ GGJ 2014 exploration horror videogame.
 
 ## How to run project with project sprouts
 
-This assumes you already cloned the repo running: git clone https://github.com/Rumpelcita/thechangeling.
+This assumes you already cloned the repo running: git clone https://github.com/Rumpelcita/thechangeling
 
 Install ruby 1.9.3 https://www.ruby-lang.org/en/
 
