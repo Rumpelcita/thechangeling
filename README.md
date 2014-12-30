@@ -15,9 +15,6 @@ gem install sprout
 #### Install the ActionScript 3 / Flash Bundle:
 gem install flashsdk --pre
 
-#### Generate a new ActionScript 3 project:
-sprout-as3 SomeProject
-
 #### Move into the project:
 cd thechangelling
 
